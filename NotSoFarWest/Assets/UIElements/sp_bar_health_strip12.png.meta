@@ -1,0 +1,2396 @@
+fileFormatVersion: 2
+guid: 6366232de7569df4aac614d4cd0f19f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5694253939982558715
+    second: sp_bar_health_strip12_0
+  - first:
+      213: 1212093088396488473
+    second: sp_bar_health_strip12_1
+  - first:
+      213: 8996787767143517978
+    second: sp_bar_health_strip12_2
+  - first:
+      213: 9142348684322000975
+    second: sp_bar_health_strip12_3
+  - first:
+      213: 1217263910681822060
+    second: sp_bar_health_strip12_4
+  - first:
+      213: 5499338251996197446
+    second: sp_bar_health_strip12_5
+  - first:
+      213: 8171583419360747539
+    second: sp_bar_health_strip12_6
+  - first:
+      213: -1763879940596312313
+    second: sp_bar_health_strip12_7
+  - first:
+      213: -4976165074988591662
+    second: sp_bar_health_strip12_8
+  - first:
+      213: 815770343609081661
+    second: sp_bar_health_strip12_9
+  - first:
+      213: -7977130933766924134
+    second: sp_bar_health_strip12_10
+  - first:
+      213: 6022065642538373646
+    second: sp_bar_health_strip12_11
+  - first:
+      213: -9199105549159727712
+    second: sp_bar_health_strip12_12
+  - first:
+      213: 5695991214685210059
+    second: sp_bar_health_strip12_13
+  - first:
+      213: 2028979830658326471
+    second: sp_bar_health_strip12_14
+  - first:
+      213: 3548745229560331589
+    second: sp_bar_health_strip12_15
+  - first:
+      213: -439903805972464486
+    second: sp_bar_health_strip12_16
+  - first:
+      213: 3912213963580553825
+    second: sp_bar_health_strip12_17
+  - first:
+      213: 734284452018144834
+    second: sp_bar_health_strip12_18
+  - first:
+      213: -2700228226582751160
+    second: sp_bar_health_strip12_19
+  - first:
+      213: 419276487497285876
+    second: sp_bar_health_strip12_20
+  - first:
+      213: -6439145812445788834
+    second: sp_bar_health_strip12_21
+  - first:
+      213: -7249963105799059411
+    second: sp_bar_health_strip12_22
+  - first:
+      213: -8965968010964152895
+    second: sp_bar_health_strip12_23
+  - first:
+      213: 7091548431586975490
+    second: sp_bar_health_strip12_24
+  - first:
+      213: 7623915513844972838
+    second: sp_bar_health_strip12_25
+  - first:
+      213: 6663971404299938778
+    second: sp_bar_health_strip12_26
+  - first:
+      213: -8808454021593467435
+    second: sp_bar_health_strip12_27
+  - first:
+      213: 8266301516779117813
+    second: sp_bar_health_strip12_28
+  - first:
+      213: 6902624218313138964
+    second: sp_bar_health_strip12_29
+  - first:
+      213: -7382598127073305743
+    second: sp_bar_health_strip12_30
+  - first:
+      213: 8506134843077066957
+    second: sp_bar_health_strip12_31
+  - first:
+      213: -4564556649521910349
+    second: sp_bar_health_strip12_32
+  - first:
+      213: -1475906008006578794
+    second: sp_bar_health_strip12_33
+  - first:
+      213: 5017417228232931336
+    second: sp_bar_health_strip12_34
+  - first:
+      213: -2217221229581889186
+    second: sp_bar_health_strip12_35
+  - first:
+      213: -1612190316106119986
+    second: sp_bar_health_strip12_36
+  - first:
+      213: 5447320614412562603
+    second: sp_bar_health_strip12_37
+  - first:
+      213: -3411124602424623798
+    second: sp_bar_health_strip12_38
+  - first:
+      213: 2788482615140953187
+    second: sp_bar_health_strip12_39
+  - first:
+      213: -1079480294116238339
+    second: sp_bar_health_strip12_40
+  - first:
+      213: 4641807984544647980
+    second: sp_bar_health_strip12_41
+  - first:
+      213: 1448694918254781736
+    second: sp_bar_health_strip12_42
+  - first:
+      213: 3736443909236333331
+    second: sp_bar_health_strip12_43
+  - first:
+      213: -1597179098403930495
+    second: sp_bar_health_strip12_44
+  - first:
+      213: 8371535172469489557
+    second: sp_bar_health_strip12_45
+  - first:
+      213: -872748669411458159
+    second: sp_bar_health_strip12_46
+  - first:
+      213: 6381262234781687995
+    second: sp_bar_health_strip12_47
+  - first:
+      213: -4071971210912816201
+    second: sp_bar_health_strip12_48
+  - first:
+      213: -1120935331785312928
+    second: sp_bar_health_strip12_49
+  - first:
+      213: 803173285050089331
+    second: sp_bar_health_strip12_50
+  - first:
+      213: 6698267914433939298
+    second: sp_bar_health_strip12_51
+  - first:
+      213: 4509141620500510819
+    second: sp_bar_health_strip12_52
+  - first:
+      213: 7546981152613219639
+    second: sp_bar_health_strip12_53
+  - first:
+      213: -3159173297188110051
+    second: sp_bar_health_strip12_54
+  - first:
+      213: 8554698785994070677
+    second: sp_bar_health_strip12_55
+  - first:
+      213: 116047485561628032
+    second: sp_bar_health_strip12_56
+  - first:
+      213: 4152118171379613936
+    second: sp_bar_health_strip12_57
+  - first:
+      213: 1532166435451005135
+    second: sp_bar_health_strip12_58
+  - first:
+      213: -7343058388867777281
+    second: sp_bar_health_strip12_59
+  - first:
+      213: -4564617824799949426
+    second: sp_bar_health_strip12_60
+  - first:
+      213: 8291274320077789427
+    second: sp_bar_health_strip12_61
+  - first:
+      213: -6504218435015574180
+    second: sp_bar_health_strip12_62
+  - first:
+      213: -2227922330006801670
+    second: sp_bar_health_strip12_63
+  - first:
+      213: -8987575794280766120
+    second: sp_bar_health_strip12_64
+  - first:
+      213: -5022682270962970079
+    second: sp_bar_health_strip12_65
+  - first:
+      213: -7643954185106942994
+    second: sp_bar_health_strip12_66
+  - first:
+      213: -779113278551339048
+    second: sp_bar_health_strip12_67
+  - first:
+      213: -7504701313262435609
+    second: sp_bar_health_strip12_68
+  - first:
+      213: -4909182727293068994
+    second: sp_bar_health_strip12_69
+  - first:
+      213: -6376125963167077203
+    second: sp_bar_health_strip12_70
+  - first:
+      213: 1279178544847233048
+    second: sp_bar_health_strip12_71
+  - first:
+      213: -4315835026418569145
+    second: sp_bar_health_strip12_72
+  - first:
+      213: 1197729114701329989
+    second: sp_bar_health_strip12_73
+  - first:
+      213: 5918517910928931576
+    second: sp_bar_health_strip12_74
+  - first:
+      213: -6538496888415993142
+    second: sp_bar_health_strip12_75
+  - first:
+      213: -4437200789582255250
+    second: sp_bar_health_strip12_76
+  - first:
+      213: 9081207212761086115
+    second: sp_bar_health_strip12_77
+  - first:
+      213: -7136470763812548521
+    second: sp_bar_health_strip12_78
+  - first:
+      213: 7450666512160579999
+    second: sp_bar_health_strip12_79
+  - first:
+      213: -1580653170256707249
+    second: sp_bar_health_strip12_80
+  - first:
+      213: -3401101646016685704
+    second: sp_bar_health_strip12_81
+  - first:
+      213: 9004806355258805901
+    second: sp_bar_health_strip12_82
+  - first:
+      213: 7688031088198882204
+    second: sp_bar_health_strip12_83
+  - first:
+      213: -4555618726513120489
+    second: sp_bar_health_strip12_84
+  - first:
+      213: 8646735995894836163
+    second: sp_bar_health_strip12_85
+  - first:
+      213: -3187396657049086340
+    second: sp_bar_health_strip12_86
+  - first:
+      213: 6178997753280090517
+    second: sp_bar_health_strip12_87
+  - first:
+      213: 4029636764230642700
+    second: sp_bar_health_strip12_88
+  - first:
+      213: 1168395707632820021
+    second: sp_bar_health_strip12_89
+  - first:
+      213: -2800990305578083223
+    second: sp_bar_health_strip12_90
+  - first:
+      213: 6961741835009925469
+    second: sp_bar_health_strip12_91
+  - first:
+      213: -4549838733873621308
+    second: sp_bar_health_strip12_92
+  - first:
+      213: -4212395342425903885
+    second: sp_bar_health_strip12_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a98760632f9f0b0800000000000000
+      internalID: -5694253939982558715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f2490fd3832d010800000000000000
+      internalID: 1212093088396488473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f4b24aec20bdc70800000000000000
+      internalID: 8996787767143517978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40d5cda0b520ee70800000000000000
+      internalID: 9142348684322000975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63c712d31794e010800000000000000
+      internalID: 1217263910681822060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64273f1e003915c40800000000000000
+      internalID: 5499338251996197446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310287333db476170800000000000000
+      internalID: 8171583419360747539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707d15a1a807587e0800000000000000
+      internalID: -1763879940596312313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d59999aa3c11fab0800000000000000
+      internalID: -4976165074988591662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f1e1d2ec2325b00800000000000000
+      internalID: 815770343609081661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98da0e2ea98b4190800000000000000
+      internalID: -7977130933766924134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02959dabcca29350800000000000000
+      internalID: 6022065642538373646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad7203fd36365080800000000000000
+      internalID: -9199105549159727712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5ce03c4d93c0f40800000000000000
+      internalID: 5695991214685210059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf52dee762682c10800000000000000
+      internalID: 2028979830658326471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d3e46fbfcaf3130800000000000000
+      internalID: 3548745229560331589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c3ba5b1d525e9f0800000000000000
+      internalID: -439903805972464486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_17
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aba804fd9fa4630800000000000000
+      internalID: 3912213963580553825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24642a691d3b03a00800000000000000
+      internalID: 734284452018144834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8485d0efbbcd68ad0800000000000000
+      internalID: -2700228226582751160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f003f37eb191d500800000000000000
+      internalID: 419276487497285876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e558938effe83a6a0800000000000000
+      internalID: -6439145812445788834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_22
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28c82c97f4f26b90800000000000000
+      internalID: -7249963105799059411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd47f6099b729380800000000000000
+      internalID: -8965968010964152895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_24
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f5834d9bd3a6260800000000000000
+      internalID: 7091548431586975490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_25
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62db15044c69dc960800000000000000
+      internalID: 7623915513844972838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_26
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adba8aa5fae2b7c50800000000000000
+      internalID: 6663971404299938778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d57f8e8cb512c580800000000000000
+      internalID: -8808454021593467435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_28
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc54e9ce6dc7b270800000000000000
+      internalID: 8266301516779117813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_29
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4132096a72c0bcf50800000000000000
+      internalID: 6902624218313138964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_30
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bd45c3e1ebb8990800000000000000
+      internalID: -7382598127073305743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_31
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc08e25829cdb0670800000000000000
+      internalID: 8506134843077066957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_32
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd691c49ef67a0c0800000000000000
+      internalID: -4564556649521910349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_33
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d27ee2e47848be0800000000000000
+      internalID: -1475906008006578794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_34
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808bfbab26271a540800000000000000
+      internalID: 5017417228232931336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_35
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51115ef909da31e0800000000000000
+      internalID: -2217221229581889186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_36
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec48b22037950a9e0800000000000000
+      internalID: -1612190316106119986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_37
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba039b7dc35c89b40800000000000000
+      internalID: 5447320614412562603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_38
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d72eb3f3049a0d0800000000000000
+      internalID: -3411124602424623798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_39
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c24d91a2ea2b620800000000000000
+      internalID: 2788482615140953187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_40
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbda2f446ae401f0800000000000000
+      internalID: -1079480294116238339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b0b52c4c30b6040800000000000000
+      internalID: 4641807984544647980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_42
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8256d764a5cca1410800000000000000
+      internalID: 1448694918254781736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_43
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b143d50f38ad330800000000000000
+      internalID: 3736443909236333331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_44
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e74fc721ea5d9e0800000000000000
+      internalID: -1597179098403930495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_45
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f7bb392eaad2470800000000000000
+      internalID: 8371535172469489557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_46
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193098d85bf53e3f0800000000000000
+      internalID: -872748669411458159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_47
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb027c2713cce8850800000000000000
+      internalID: 6381262234781687995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_48
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3ace502c37d77c0800000000000000
+      internalID: -4071971210912816201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_49
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06570c43143a170f0800000000000000
+      internalID: -1120935331785312928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_50
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f7e7ce8d1752b00800000000000000
+      internalID: 803173285050089331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_51
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2674b32ed2705fc50800000000000000
+      internalID: 6698267914433939298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_52
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368bcd3d960b39e30800000000000000
+      internalID: 4509141620500510819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_53
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d34186f534cb860800000000000000
+      internalID: 7546981152613219639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_54
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11043dcf9c5824d0800000000000000
+      internalID: -3159173297188110051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_55
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a54ab983568b670800000000000000
+      internalID: 8554698785994070677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_56
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0856af1c2984c9100800000000000000
+      internalID: 116047485561628032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_57
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c68e5a794f9930800000000000000
+      internalID: 4152118171379613936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_58
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc865d95149534510800000000000000
+      internalID: 1532166435451005135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_59
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc759eec47381a90800000000000000
+      internalID: -7343058388867777281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_60
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8df161d54837a0c0800000000000000
+      internalID: -4564617824799949426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_61
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f81e87a016801370800000000000000
+      internalID: 8291274320077789427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_62
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d795f4bcf5cb5a0800000000000000
+      internalID: -6504218435015574180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_63
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2b8c4e174d411e0800000000000000
+      internalID: -2227922330006801670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_64
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855eefdee67b54380800000000000000
+      internalID: -8987575794280766120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_65
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122999bf519db4ab0800000000000000
+      internalID: -5022682270962970079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_66
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee317550b283be590800000000000000
+      internalID: -7643954185106942994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_67
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df4820e9980035f0800000000000000
+      internalID: -779113278551339048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_68
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2c59dcae1f9d790800000000000000
+      internalID: -7504701313262435609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_69
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39963ac1541fdbb0800000000000000
+      internalID: -4909182727293068994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_70
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dace74af7337387a0800000000000000
+      internalID: -6376125963167077203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_71
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810abe1fb1e80c110800000000000000
+      internalID: 1279178544847233048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 62
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740f125e8e21b14c0800000000000000
+      internalID: -4315835026418569145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_73
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5467ae2b8403f9010800000000000000
+      internalID: 1197729114701329989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_74
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fab4bdaeacc22250800000000000000
+      internalID: 5918517910928931576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_75
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c7f0f8b79245a0800000000000000
+      internalID: -6538496888415993142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_76
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bedd32465eb62c0800000000000000
+      internalID: -4437200789582255250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_77
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8f65088dde60e70800000000000000
+      internalID: 9081207212761086115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_78
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7501ef4a6a926fc90800000000000000
+      internalID: -7136470763812548521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_79
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91ea3da7b5166760800000000000000
+      internalID: 7450666512160579999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_80
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4101c9f054601ae0800000000000000
+      internalID: -1580653170256707249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_81
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879dd20a21cdcc0d0800000000000000
+      internalID: -3401101646016685704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_82
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e816cabaf77fc70800000000000000
+      internalID: 9004806355258805901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_83
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c931142ba8f51ba60800000000000000
+      internalID: 7688031088198882204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_84
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b611aa7e037c0c0800000000000000
+      internalID: -4555618726513120489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_85
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb25ed63906ff770800000000000000
+      internalID: 8646735995894836163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_86
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c765252c0a714c3d0800000000000000
+      internalID: -3187396657049086340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_87
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591523808b530c550800000000000000
+      internalID: 6178997753280090517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_88
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c62d189452ce730800000000000000
+      internalID: 4029636764230642700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_89
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f9b86a4b9f63010800000000000000
+      internalID: 1168395707632820021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_90
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c94b84822e029d0800000000000000
+      internalID: -2800990305578083223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_91
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d512eb560531d9060800000000000000
+      internalID: 6961741835009925469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_92
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 3
+        width: 60
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6562217c9bbd0c0800000000000000
+      internalID: -4549838733873621308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_bar_health_strip12_93
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1
+        width: 66
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fca13911c09a85c0800000000000000
+      internalID: -4212395342425903885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
