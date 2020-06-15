@@ -1,6 +1,7 @@
-# FPSSample
+# FPSSample :video_game: 
 
-## Motivation
+
+## Motivation :space_invader: 
 This is a Simple project that I'm building to learn more about FPS games and to learn some 3D modeling and shader development. Currently the project is on development on its Early stages but I'll encorage you to take a look at the [Scripts](./NotSoFarWest/Assets/Scripts) session if you are interested on seeing how it the project architectured.
 
 You can also play a sample of the lastest build [Here](https://arthurobdfv.github.io/FPSSample), I'll be constantly updating both the source code and the build page so you can check the latest implementations.
