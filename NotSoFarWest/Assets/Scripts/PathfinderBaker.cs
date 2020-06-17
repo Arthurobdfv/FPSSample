@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.Collections;
 using Unity.Jobs;
+using UnityEditor;
 using UnityEngine;
 
 
@@ -37,13 +38,16 @@ public class PathfinderBaker : MonoBehaviour
         var t1 = DateTime.Now;
         var m_checkedGridUnits = new List<PathfinderUnit>();
         var chunkLevel = gridSize;
-        var Chunks = new Queue<PathfinderUnit>();
+        var Chunks = new List<PathfinderUnit>();
         var chunkExtent = new Vector3(chunkLevel,chunkLevel,chunkLevel);
         var bigChunk = new PathfinderUnit(transform.position,CheckChunk(transform.position,chunkExtent,m_groundLayers),chunkLevel);
-        Chunks.Enqueue(bigChunk);
-        while(Chunks.Count > 0){
+        int loopcount = 0;
+        var maxLoop = (gridSize);
+        Debug.Log($"Maxloop = {maxLoop}");
+        Chunks.Add(bigChunk);
+        while(Chunks.Count > 0 && loopcount < maxLoop){
             int splitInto = 1;
-            var chunk = Chunks.First();
+            var chunk = Chunks[0];
             chunkLevel = chunk.m_size;
 
 
@@ -62,53 +66,41 @@ public class PathfinderBaker : MonoBehaviour
 
             int numberOfUnitsToSplit = Chunks.Count;
             int numberOfSubChunks = splitInto * splitInto * splitInto;
-            NativeArray<PathFinderWithSubQuads> _unitsToSplit = new NativeArray<PathFinderWithSubQuads>(numberOfUnitsToSplit,Allocator.TempJob);
+            NativeArray<PathfinderUnit> _unitsToSplit = new NativeArray<PathfinderUnit>(numberOfUnitsToSplit,Allocator.TempJob);
+            NativeArray<PathfinderUnit> _subChunksHash = new NativeArray<PathfinderUnit>(numberOfUnitsToSplit*numberOfSubChunks,Allocator.TempJob);
             PathfinderUnit[] units = new PathfinderUnit[numberOfUnitsToSplit];
             for(int i=0; i<numberOfUnitsToSplit; i++){
-                units[i] = Chunks.Dequeue();
-                _unitsToSplit[i] = new PathFinderWithSubQuads(units[i], new NativeArray<PathfinderUnit>(numberOfSubChunks,Allocator.TempJob));
-
+                units[i] = Chunks[i];
+                _unitsToSplit[i] = new PathfinderUnit(units[i]);
             }
 
             var chunkJob = new SplitChunkJob();
             chunkJob.UnitsToSplit = _unitsToSplit;
+            chunkJob.SplittedChunks = _subChunksHash;
             chunkJob.Level = splitInto;
             chunkJob.NumberOfSubChunks = numberOfSubChunks;
 
             var jHandler = chunkJob.Schedule(numberOfUnitsToSplit,1);
             jHandler.Complete();
 
-            var _splittedUnits = new List<PathfinderUnit>();
-            for(int i=0; i<numberOfUnitsToSplit;i++){
-                _splittedUnits = _splittedUnits.Concat(_unitsToSplit[i].subQuads).ToList();
-            }
 
-            Vector3 newSize = new Vector3(chunkLevel / splitInto,chunkLevel / splitInto,chunkLevel / splitInto);
-            
-            for(int i = 0; i< _splittedUnits.Count; i++){
-                bool unitWalkable = CheckChunk(_splittedUnits[i].m_unit,newSize,m_groundLayers);
-                var unit = new PathfinderUnit(_splittedUnits[i].m_unit,unitWalkable,_splittedUnits[i].m_size);
-                if(unitWalkable) m_checkedGridUnits.Add(unit);
-                else Chunks.Enqueue(unit);
+            Vector3 newSize = new Vector3(_subChunksHash[0].m_size,_subChunksHash[0].m_size,_subChunksHash[0].m_size) / 2;
+            PathfinderUnit[] subUnits = new PathfinderUnit[_subChunksHash.Length];
+            for(int i = 0; i< _subChunksHash.Length; i++){
+                bool unitWalkable = CheckChunk(_subChunksHash[i].m_unit,newSize,m_groundLayers);
+                var unit = new PathfinderUnit(_subChunksHash[i].m_unit,unitWalkable,_subChunksHash[i].m_size);
+                // if(unitWalkable || unit.m_size == 1) m_checkedGridUnits.Add(unit);
+                // else Chunks.Add(unit);
+                subUnits[i] = unit;
             }
-
-            // Debug.Log($"Chunk Size : {chunkLevel},\nSplitInto : {splitInto}");
-            // var subChunks = SplitChunk(chunk,splitInto);
-            // if(chunkLevel == 1){
-            //     var Unwalkable = subChunks.Where((ch) => !ch.m_walkable).Count();
-            //     m_checkedGridUnits = m_checkedGridUnits.Concat(subChunks).ToList();
-            // }
-            // else{
-            //     m_checkedGridUnits = m_checkedGridUnits.Concat(subChunks.Where((ch) => ch.m_walkable)).ToList();
-            //     var rescanChunk = subChunks.Where((ch) => !ch.m_walkable);
-            //     foreach(var c in rescanChunk){
-            //         Debug.Log($"Enqueueing chunk : {c.m_unit}\nSize : {c.m_size}\nWalkable : {c.m_walkable}");
-            //         Chunks.Enqueue(c);
-            //     }
-            // }
-            // m_gridPoints = m_checkedGridUnits.ToArray();
-            // Units = m_checkedGridUnits;
+            m_checkedGridUnits.AddRange(subUnits.Where((un) => (un.m_walkable || un.m_size == 1)));
+            Chunks = subUnits.Where((un) => (!un.m_walkable && un.m_size > 1)).ToList();
+            _unitsToSplit.Dispose();
+            _subChunksHash.Dispose();
+            loopcount++;
         }
+        m_gridPoints = m_checkedGridUnits.ToArray();
+        if(loopcount > maxLoop) Debug.LogError("Loopcount Exceeded!! Infinite Loop Detected");
         Debug.Log($"Chunks : {m_gridPoints.Length}" );
         Debug.Log($"Non walkable Chunks: {m_gridPoints.Where((gp) => !gp.m_walkable).Count()}");
     var t2 = DateTime.Now;
@@ -120,6 +112,16 @@ public class PathfinderBaker : MonoBehaviour
         foreach(var v in m_gridPoints){
                 Gizmos.color = v.m_walkable ? Color.green : Color.red;
                 if((m_showWalkable && v.m_walkable) || (m_showNonWalkable && !v.m_walkable))Gizmos.DrawWireCube(v.m_unit,new Vector3(v.m_size,v.m_size,v.m_size));
+        }
+        else return;
+    }
+
+    void OnGUI() {
+        if(m_gridPoints != null && m_gridPoints.Length > 0){
+            foreach(var v in m_gridPoints){
+                    Handles.color = v.m_walkable ? Color.green : Color.red;
+                    if((m_showWalkable && v.m_walkable) || (m_showNonWalkable && !v.m_walkable))Handles.DrawWireCube(v.m_unit,new Vector3(v.m_size,v.m_size,v.m_size));
+            }
         }
         else return;
     }
@@ -202,6 +204,7 @@ public class PathfinderBaker : MonoBehaviour
         Debug.Log(t2.Subtract(t1).TotalMilliseconds + "ms");
         Debug.Log(m_gridPoints.Length);
         Debug.Log(m_gridPoints.Where((p) => !p.m_walkable).Count());
+        
     }
     [Obsolete]
     IEnumerator SetUpCube3 (){ 

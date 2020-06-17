@@ -3,9 +3,11 @@ using Unity.Jobs;
 using Unity.Collections;
 
 public struct SplitChunkJob : IJobParallelFor {
-
-    public NativeArray<PathFinderWithSubQuads> UnitsToSplit;
-    
+    [ReadOnly]
+    public NativeArray<PathfinderUnit> UnitsToSplit;
+    [WriteOnly]
+    [NativeDisableParallelForRestriction]
+    public NativeArray<PathfinderUnit> SplittedChunks;
 
     public int NumberOfSubChunks;
 
@@ -16,11 +18,11 @@ public struct SplitChunkJob : IJobParallelFor {
     public void Execute(int index)
     {
         var chunkToSplit = UnitsToSplit[index];
-        var splittedChunk = SplitChunk(chunkToSplit.unit,Level);
+        var splittedChunk = SplitChunk(chunkToSplit,Level);
+        //NativeArray<PathfinderUnit> arrayOfSubChunks = new NativeArray<PathfinderUnit>();
         for(int i = 0; i < NumberOfSubChunks; i++){
-            chunkToSplit.subQuads[i] = splittedChunk[i];
+            SplittedChunks[i+ (index*NumberOfSubChunks)] = splittedChunk[i];
         }
-
     }
 
     public PathfinderUnit[] SplitChunk(PathfinderUnit chunk, int level){

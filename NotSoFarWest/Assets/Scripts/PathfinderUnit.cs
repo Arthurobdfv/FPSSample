@@ -12,20 +12,16 @@ public struct PathfinderUnit {
         m_size = size;
     }
 
+    public PathfinderUnit(PathfinderUnit unit){
+        m_unit = unit.m_unit;
+        m_walkable = unit.m_walkable;
+        m_size = unit.m_size;
+    }
+
     public bool Contains(Vector3 point){
         if(point.x > m_unit.x+(m_size/2) || point.x < m_unit.x-(m_size/2)) return false;
         if(point.y > m_unit.y+(m_size/2) || point.y < m_unit.y-(m_size/2)) return false;
         if(point.z > m_unit.z+(m_size/2) || point.z < m_unit.z-(m_size/2)) return false;
         return true;
-    }
-}
-
-public struct PathFinderWithSubQuads{
-    public PathfinderUnit unit;
-    public NativeArray<PathfinderUnit> subQuads;
-
-    public PathFinderWithSubQuads(PathfinderUnit _unit,NativeArray<PathfinderUnit> _subQuads){
-        unit = _unit;
-        subQuads = _subQuads;
     }
 }
