@@ -24,4 +24,5 @@ public struct PathfinderUnit {
         if(point.z > m_unit.z+(m_size/2) || point.z < m_unit.z-(m_size/2)) return false;
         return true;
     }
+
 }
