@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a98956baa71484e900e9f79f3d2519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: 100000
+  gridSize: 1000
   m_showWalkable: 1
   m_showNonWalkable: 1
   m_groundLayers:
@@ -1417,6 +1417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 4595eb8bb67d7c041813a3b5f27d6566,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -594094835925579944, guid: 4595eb8bb67d7c041813a3b5f27d6566,
         type: 3}
